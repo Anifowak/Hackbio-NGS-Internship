@@ -1,13 +1,10 @@
 
 Project Details: Submit markdown or code solution to the project below
 
-## Task 1: Biocomputing ##
-**Print your name
-
-**create a folder titled in my name
-
-
-**create another new directory titled ‘biocomputing’ and change to that directory with one line of command
+## Task 1: Biocomputing
+- Print your name
+- create a folder titled in my name
+- create another new directory titled ‘biocomputing’ and change to that directory with one line of command
 
 **Download the necessary files
 
