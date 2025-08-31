@@ -8,9 +8,12 @@ Project Details: Submit markdown or code solution to the project below
 
 
 **create another new directory titled ‘biocomputing’ and change to that directory with one line of command
-Download the necessary files
-move the ‘.fna’ file to the folder titled my name
-delete the duplicate ‘gbk’ file
+
+**Download the necessary files
+
+**move the ‘.fna’ file to the folder titled my name
+
+**Delete the duplicate ‘gbk’ file
 confirm if the ‘.fna’ file is mutant or wildtype
 count the number of lines excluding header in the ‘.gbk’ file
 print the sequence length of the ‘.gbk’ file using the LOCUS tag in the first line
