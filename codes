@@ -2,29 +2,27 @@ echo Akinjide
 mkdir Akinjide
 mkdir biocomputing && cd biocomputing
 
-wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
-wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
-wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna\https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk\https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
 
 mv *.fna ../Akinjide
-rm *.gbk.*
+rm wildtype.gbk.1
 grep -q 'TATATATA' wildtype.fna && echo "Mutant" || echo "Wild type
   
 lines_with_header=$(wc -l wildtype.gbk | awk '{print $1}')
 lines=$((lines_with_header - 1))
 echo 'There are' $lines 'lines in the gbk file'
 
-echo "Sequence length:" $(awk '/^LOCUS/ {print $3}' wildtype.gbk)
+awk '/^LOCUS/ {print $3}' wildtype.gbk
 
-echo "Source organism:" $(grep '^SOURCE' wildtype.gbk | awk '{print $2, $3}')
+grep '^SOURCE' wildtype.gbk | awk '{print $2, $3}'
 
-echo "all the genes for our source organism are" $(grep '/gene=' wildtype.gbk | sed 's/\/gene\=/ /')
+grep '/gene=' wildtype.gbk | sed 's/\/gene\=/ /'
 
 ctrl + l 
 
-history
-
 ls Akinjide/ biocomputing/
+
+history
 
 
 conda activate
