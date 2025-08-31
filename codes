@@ -2,9 +2,7 @@ Task 1
 echo Akinjide
 mkdir Akinjide
 mkdir biocomputing && cd biocomputing
-
 wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna\https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk\https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
-
 mv *.fna ../Akinjide
 rm wildtype.gbk.1
 grep -q 'TATATATA' wildtype.fna && echo "Mutant" || echo "Wild type
@@ -14,16 +12,13 @@ lines=$((lines_with_header - 1))
 echo 'There are' $lines 'lines in the gbk file'
 
 awk '/^LOCUS/ {print $3}' wildtype.gbk
-
 grep '^SOURCE' wildtype.gbk | awk '{print $2, $3}'
-
 grep '/gene=' wildtype.gbk | sed 's/\/gene\=/ /'
-
 ctrl + l 
-
 ls Akinjide/ biocomputing/
-
 history
+
+
 
 Task 2
 conda activate
