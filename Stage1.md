@@ -1,8 +1,4 @@
 # **Stage 1 Report: South African Polony AMR Identification**
-Name: Chairunnisa Nur Amanda\
-Slack ID: @ChairunnisaAmanda\
-Github Repository: \
-Linkedin Post: \
 
 ---
 
