@@ -1,6 +1,6 @@
 # Next-Generation Sequencing (NGS) Internship
 
-Welcome to my GitHub repository showcasing my work and learning during a **Next-Generation Sequencing (NGS) Internship**, focusing on **Whole Genome Sequencing (WGS)** and **RNA-seq analysis**.
+Welcome to my GitHub repository showcasing my work and learning during a **Next-Generation Sequencing (NGS) Internship**, focusing on **Whole Genome Sequencing (WGS)** and **RNA-seq analysis** organized by [HackBio](https://internship.thehackbio.com/internship).
 
 ---
 
@@ -16,7 +16,7 @@ During this internship, I gained hands-on experience in:
 - File Compression
 - Shell Scripting
 - Package/Tool Installation in Bash
-- Hands on Projects using real world datasets
+- Hands on Projects using real world [datasets](https://internship.thehackbio.com/dashboard/internship/courses/1/module/23/content/33)
   
 **Whole Genome Sequencing (WGS):**
   - Molecular Foundations of NGS
@@ -26,7 +26,7 @@ During this internship, I gained hands-on experience in:
   - Alignment
   - De-novo, Variant calling and filtering
   - Annotation of single nucleotide variants (SNVs) and indels
-  - Hands on Projects using real world datasets
+  - Hands on Projects using real world [datasets](https://internship.thehackbio.com/dashboard/internship/courses/3/module/20/content/61)
     
 **RNA-seq Analysis:**
   - Quality control and Preprocessing
@@ -34,7 +34,7 @@ During this internship, I gained hands-on experience in:
   - Counting Transcripts (quantification and normalization)
   - Differential gene expression analysis
   - Visualization of expression trends using heatmaps, PCA, and volcano plots
-  - Hands on Projects using real world datasets
+  - Hands on Projects using real world [datasets](https://internship.thehackbio.com/dashboard/internship/courses/2/module/24/content/128)
 
 ---
 
@@ -51,4 +51,4 @@ During this internship, I gained hands-on experience in:
 For questions or collaborations, feel free to reach out via 
 - [My email](anifowosesamuel54@gmail.com)
 - [My Linkedin](www.linkedin.com/in/akinjide-anifowose-4a482a189)
-- [My Website]
+- [RPubs](https://rpubs.com/Akinjide)
