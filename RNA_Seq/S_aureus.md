@@ -100,14 +100,6 @@ chmod +x scripts/*.sh
 
 ## 3.0 — Quick: Clone Repo / Change to Project Folder
 
-```bash
-# on my server 
-cd ~/Mary/HackBio_NGS_Bash
-
-git clone https://github.com/aloyetunde/HackBio_NGS_Bash.git
-
-cd S_aureus_PJI_RNAseq
-```
 ## 3.1 — Download SRA in `raw_sra/`
 
 ```bash
