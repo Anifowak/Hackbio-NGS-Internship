@@ -8,11 +8,6 @@ Periprosthetic joint infections (PJIs) are severe complications following orthop
 
 RNA-seq was employed to compare gene expression profiles of *S. aureus* isolates from acute vs chronic PJIs.
 
-**Repository path (working directory for commands):**  
-`~/Mary/HackBio_NGS_Bash/S_aureus_PJI_RNAseq/`
-
-**Metadata file (full path):**  
-`~/Mary/HackBio_NGS_Bash/S_aureus_PJI_RNAseq/metadata.tsv`
 
 # Table of Contents
 
